@@ -1,0 +1,14 @@
+let tails = 0
+let heads = 0
+let flipValue = 0
+for (let index = 0; index < 100; index++) {
+    flipValue = Math.floor(Math.random() * 2)
+    if (flipValue == 0) {
+        heads += 1
+    } else {
+        tails += 1
+    }
+}
+console.log("Heads " + heads)
+console.log("Tails " + tails)
+console.log("---")
